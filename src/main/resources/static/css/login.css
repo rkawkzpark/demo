@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'HUFS_B';
+    src: url('/static/fonts/한국외대체B.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HUFS_L';
+    src: url('/static/fonts/한국외대체L.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gamtan';
+    src: url('/static/fonts/감탄로드돋움체Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gamtan';
+    src: url('/static/fonts/감탄로드돋움체Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "HUFS_M", sans-serif;
+}
+
+#main-logo {
+    font-family: 'HUFS_B', sans-serif ;
+    position: absolute;
+    left: 51px;
+    top: 75px;
+    width: 481px;
+    height: 93px;
+}
+
+header {
+    margin-top: 40px;
+}
+
+.h1 {
+    font-weight: bold;
+    color: #8d7150;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.span {
+    color: #002d56;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+.login-container {
+    font-family: "HUFS_M", sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.login-container h2 {
+    font-family: "HUFS_M", sans-serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+input {
+    width: 662px;
+    height: 98.58px;
+    font-family: "HUFS_M", sans-serif;
+    font-size: 30px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    color: #A0A0A0;
+    padding: 0px 20px;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    font-family: "HUFS_M", sans-serif;
+    padding: 35px 30px;
+    font-size: 40px;
+    background-color: #9D9FA2;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8b8d90;
+}
+
+.firebase-login-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#firebase-login-btn {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    font-size: 32px;
+    font-family: "HUFS_M", sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#firebase-login-btn:hover {
+    background-color: #357AE8;
+}

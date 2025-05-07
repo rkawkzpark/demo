@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+}
+
+#main-logo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#main-logo h1 {
+    font-size: 3rem;
+    color: #007bff;
+}
+
+#main-logo span {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.login-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#firebase-login-btn {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#firebase-login-btn:hover {
+    background-color: #357ae8;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+pre {
+    font-size: 0.9rem;
+    color: #333;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    white-space: pre-wrap;
+}
+
+.login-redirect {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.login-redirect a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-redirect a:hover {
+    text-decoration: underline;
+}

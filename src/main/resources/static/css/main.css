@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'HUFS_B';
+    src: url('/static/fonts/한국외대체B.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HUFS_L';
+    src: url('/static/fonts/한국외대체L.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gamtan';
+    src: url('/static/fonts/감탄로드돋움체Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gamtan';
+    src: url('/static/fonts/감탄로드돋움체Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'HUFS_B', sans-serif;
+    background-color: #ffffff;
+    line-height: 1.6;
+    color: #000;
+}
+
+#main-logo {
+    padding: 20px 40px;
+    background-color: #f9f9f9;
+}
+
+#main-logo h1 {
+    font-family: 'HUFS_B', sans-serif;
+    font-size: 28px;
+    color: #8D7150;
+    margin-bottom: 5px;
+}
+
+#main-logo span {
+    font-family: 'HUFS_B', sans-serif;
+    font-size: 14px;
+    color: #002D56;
+}
+
+nav {
+    font-family: 'HUFS_L', sans-serif;
+    padding: 10px 40px;
+}
+
+#topMenu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+}
+
+#topMenu li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+    padding: 6px 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+}
+
+/* 로그인 버튼 */
+.login_button {
+    font-family: 'HUFS_L', sans-serif;
+    background-color: #9D9FA2;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    padding: 6px 14px;
+    border-radius: 5px;
+    color: #000;
+    text-decoration: none;
+}
+
+/* 메인 콘텐츠 영역 */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    flex-wrap: wrap;
+}
+
+#content {
+    flex: 1;
+    min-width: 300px;
+}
+
+#content h2 {
+    color: #8D7150;
+    font-family: 'gamtan_B', sans-serif;
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#content p {
+    font-family: 'gamtan_R', sans-serif;
+    font-size: 55px;
+    color: #000000;
+}
+
+/* 이미지 영역 */
+#image {
+    flex: 1;
+    text-align: center;
+    min-width: 300px;
+}
+
+#image img {
+    max-width: 100%;
+    height: auto;
+}
