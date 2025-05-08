@@ -52,7 +52,6 @@ public class SecurityConfig {
                                 AntPathRequestMatcher.antMatcher(HttpMethod.GET, "/login"),
                                 AntPathRequestMatcher.antMatcher(HttpMethod.GET, "/signup"),
                                 AntPathRequestMatcher.antMatcher(HttpMethod.GET, "/profile"),
-                                AntPathRequestMatcher.antMatcher(HttpMethod.GET, "/profile"),
                                 AntPathRequestMatcher.antMatcher(HttpMethod.GET, "/equipment-list"),
                                 // API 인증/인가 관련 경로
                                 AntPathRequestMatcher.antMatcher("/api/auth/signup"),
